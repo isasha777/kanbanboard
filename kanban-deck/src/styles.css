@@ -1,0 +1,198 @@
+.head{
+    display: flex;
+    background-color: #0067A3;
+    width: 1235px;
+    height: 55px;
+    
+}
+.h1{
+    color: white;
+    margin: 11px auto 18px 20px;
+    font-size: 28px;
+}
+.profile-foto{
+    margin: 8px 1px 0 0;
+    width: 38px;
+    height: 38px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 16px 0 0;
+    
+  }
+  
+  .nav__brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav__items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__item {
+    
+    cursor: pointer;
+  }
+  
+  .nav__dropdown {
+    position: relative;
+  }
+  
+  .nav__dropdown-menu {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0;
+    z-index: 1;
+  }
+  
+  .nav__dropdown-item {
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+  }
+  
+  .nav__dropdown-divider {
+    border-top: 1px solid #ced4da;
+    margin: 0.5rem 0;
+  }
+  
+
+
+
+  .kanban-column {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 300px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-left: 19px;
+  }
+  
+  .kanban-column h2 {
+    color: #555;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  
+  .kanban-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .kanban-column li {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .kanban-board{
+    display: flex;
+    align-items: flex-start;
+    width: 1235px;
+    height: 590px;
+    background-color:#0079BF; 
+  }
+  .BacklogCard{
+    height: 100px;
+  }
+
+  .buttonAdd{
+    display: flex;
+    margin-top: 23px;
+    border: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  .plusIcon{
+    width: 16px;
+    height: 16px;
+    margin: -1px 3px 0 0;
+  }
+
+  .footer{
+    height: 55px;
+    display: flex;
+    background-color:#0067A3;
+    width: 1235px;
+  }
+  .activeF{
+    color: white;
+    font-size: 18px;
+    margin-left: 21px;
+  }
+  .finishF{
+    color: white;
+    font-size: 18px;
+    margin-left: 36px;
+  }
+  .authorF{
+    color: white;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 19px;
+  }
+  .task-count1{
+    position: absolute;
+    left:-824px ;
+    top: 661px;
+    right: 30px;
+    bottom: 30px;
+  }
+  .task-count{
+    position: absolute;
+    left:-1142px ;
+    top: 661px;
+    right: 30px;
+    bottom: 30px;
+  }
+  .Taskspan{
+    color: white;
+    font-size: 18px;
+  }
+  @media screen and (max-width:1299px){
+    .head{
+      width: 338px;
+    }
+    .h1{
+      display: none;
+    }
+    .profile-foto{
+      padding-left: 270px;
+    }
+    .kanban-board{
+      display: grid;
+      width: 338px;
+      min-height: 700px;
+    }
+    .kanban-column{
+      width: 282px;
+      margin-right: 0;
+      margin-left: 13px;
+      
+    }
+    .footer{
+      width: 338px;
+      display: none;
+    }
+    .task-count{
+      display: none;
+    }
+    .task-count1{
+      display: none;
+    }
+  }
